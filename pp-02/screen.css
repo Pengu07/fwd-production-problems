@@ -22,7 +22,10 @@ h1{
   font-size: 39.063px;
   line-height: 43.75px;
 }
-
+nav{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 h2 {
   font-size:31.25px;
   line-height: 31.25px;
