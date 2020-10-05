@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import url('//basehold.it/25');
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -7,3 +10,18 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+/* Used 20px as base size https://www.modularscale.com/?20&px&1.25 with a major third ratio */
+html{
+  font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, Roman, serif;
+  font-size: 1.25em;
+  line-height:1.25em;
+  padding: 25px 12.5px 25px 12.5px; /* T R B L */
+}
+
+h1{
+
+}
+
+h2 {
+
+}
