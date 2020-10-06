@@ -21,20 +21,18 @@ html{
 h1{
   font-size: 39.063px;
   line-height: 43.75px;
-}
-nav{
-  padding-top: 20px;
   padding-bottom: 20px;
 }
 h2 {
   font-size:31.25px;
   line-height: 31.25px;
   font-weight: 600;
+  padding-top: 20px;
 }
 h3{
   font-size:25px;
   font-style: italic;
-  line-height: 27.5px
+  line-height: 25px
 }
 h4{
   font-size:20px;
