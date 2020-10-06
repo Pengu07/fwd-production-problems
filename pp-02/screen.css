@@ -13,34 +13,34 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Used 20px as base size https://www.modularscale.com/?20&px&1.25 with a major third ratio */
 html{
   font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, Roman, serif;
-  font-size: 1.25em;
-  line-height:1.25em;
-  padding: 25px 12.5px 25px 12.5px; /* T R B L */
+  font-size: 1.25em; /* 20 / 16 = 1.25 */
+  line-height:1.25em; /* 25 / 20 = 1.25 */
+  padding: 1.25em 0.625em 1.25em 0.625em; /* T R B L */
 }
 h1{
-  font-size: 39.063px;
-  line-height: 43.75px;
-  padding-bottom: 25px;
+  font-size: 1.95315em; /* 39.063 / 20 */
+  line-height: 1.119985664em; /* 43.75 / 39.063 */
+  padding-bottom: 0.639991808em; /* 25 / 39.063 */
 }
 h2 {
-  font-size:31.25px;
-  line-height: 31.25px;
+  font-size: 1.5625em; /* 31.25 / 20 */
+  line-height: 1em; /* 31.25 / 31.25 */
   font-weight: 600;
-  padding-top: 25px;
+  padding-top: 0.8em; /* 25 / 31.25 */
 }
 h3{
-  font-size:25px;
+  font-size:1.25em; /* 25 / 20 */
   font-style: italic;
-  line-height: 25px
+  line-height: 1em; /* 25 / 25 */
 }
 h4{
-  font-size:20px;
+  font-size:1em;
   font-weight:600;
-  line-height:25px;
+  line-height:1.25em; /* 25 / 20 */
 }
 .hank{
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 1.25em; /* 25 / 20 */
+  padding-bottom: 1.25em; /* 25 / 20 */
 }
 .bgcolor{
   background-color: green;
