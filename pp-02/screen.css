@@ -21,13 +21,13 @@ html{
 h1{
   font-size: 39.063px;
   line-height: 43.75px;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
 }
 h2 {
   font-size:31.25px;
   line-height: 31.25px;
   font-weight: 600;
-  padding-top: 20px;
+  padding-top: 25px;
 }
 h3{
   font-size:25px;
@@ -38,4 +38,8 @@ h4{
   font-size:20px;
   font-weight:600;
   line-height:25px;
+}
+.hank{
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
