@@ -21,7 +21,7 @@
   </header>
   <!--Hint: Watch for duplicate and non-semantic classes and IDs-->
   <main id="home">
-    <article id="primary" class="green-background">
+    <article id="primary" class="bgcolor">
       <section id="About me">
         <h2>About Me</h2> <!-- bold -->
         <h3>3rd-Year ITM Undergraduate</h3> <!-- italic -->
@@ -49,14 +49,17 @@
   <aside id="supporting">
     <h3>Facts About Me</h3>
     <!--Hint: Don't repeat classes on all inner elements that share a common parent-->
+    <p class="facts"> <!-- bold; do not use styling in HTML-->
+      Quick Facts
+    </p>
     <ul>
-      <li class="quick-facts"><p><b> Quick Facts: </b></p> <!-- bold; do not use styling in HTML-->
       <!-- Hint: Close up spaces between content and HTML tags on the same line-->
-      <li class="quick-facts"> Interested in cybersecurity </li>
-      <li class="quick-facts"> Hate cold winters </li>
-      <li class="quick-facts" > Always running late </li></li>
+      <li class="cybersecurity">Interested in cybersecurity</li>
+      <li class="winters">Hate cold winters</li>
+      <li class="late">Always running late</li>
     </ul>
   </aside>
+
   <footer id="footer">
     Site content and design &copy; by me.
   </footer>
