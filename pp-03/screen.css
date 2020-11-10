@@ -43,14 +43,15 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   #content{
     flex-wrap: wrap;
   }
+
   #three{
-   order: 3;
-   width: 100vw;
-   height: 50vh;
+    order: 3;
   }
+  #three,
   #two,
   #one{
-    height: 50vh;
+    height:50vh;
+    flex: 1 auto;
   }
 
 }
