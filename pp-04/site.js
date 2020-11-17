@@ -4,6 +4,7 @@
   `x` as the variable inside the function, however.
 */
 
+/* Original code
 x = 5;
 
 function double(num) {
@@ -22,6 +23,26 @@ console.log('The value of x is', x, '-- it should be 5.');
 
   Be sure to comment out the original `double()` function so you
   can accurately test your work.
+*/
+
+// To get them out of the global namespace I believe all I have to do is turn it into a function.
+
+(function(){
+
+  var x = 5;
+
+  function double(num) {
+    var x = num * 2;
+    return x;
+  }
+
+  console.log('The value of x is', x, '-- it should be 5.');
+  //double(6); commented out as it is unneeded.
+})(); //Turns this into a self invoking function
+
+/* Test to make sure function cannot be accessed globally.
+double(6)
+console.log(double(6))
 */
 
 
