@@ -27,6 +27,7 @@ console.log('The value of x is', x, '-- it should be 5.');
   To get them out of the global namespace I believe all I have to do is turn it into a function.
 */
 
+/*
 (function(){
 
   var x = 5;
@@ -38,6 +39,7 @@ console.log('The value of x is', x, '-- it should be 5.');
 
   console.log('The value of x is', x, '-- it should be 5.');
 })();
+*/
 
 /*
   Step 3. Rewrite your corrected `double()` function from Step 2.
